@@ -13,7 +13,14 @@ from statistics import mean
 import requests
 
 # Importing the API keys
-from web_crawler.twitter_api_keys import *
+from settings import twitter_api_keys
+
+# Get Twitter API keys
+bearer_token = twitter_api_keys().bearer_token
+consumer_key = twitter_api_keys().consumer_key
+consumer_secret = twitter_api_keys().consumer_secret
+access_token = twitter_api_keys().access_token
+access_token_secret = twitter_api_keys().access_token_secret
 
 
 def crypto_sentiments() -> pd.DataFrame:

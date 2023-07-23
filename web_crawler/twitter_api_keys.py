@@ -1,8 +1,0 @@
-# Twitter API keys
-
-access_token = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-access_token_secret = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-consumer_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-consumer_secret = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-bearer_token = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-
