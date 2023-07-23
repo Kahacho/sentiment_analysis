@@ -18,8 +18,8 @@
 
 <a name="Running_the_scripts"></a>
 ## Running the scripts
-- Firstly, you need to set your Twitter API keys in `twitter_api_keys.py` in 
-the `web_crawler` directory. 
+- Firstly, you need to create a `.env` file in the root directory, and have your 
+API keys in the format `ACCESS_TOKEN=XXXXXXX` etc.
 - Secondly, run the `save_data.py` in `data` directory. The script will
 fetch data from twitter, and save it in real-time in a `data.csv` file that will
 be created in the `data` directory. The data is simply the sentiment score of every 
